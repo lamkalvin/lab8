@@ -45,7 +45,6 @@ function initRSVPForm() {
   });
 
   function postCallback(res) {
-	  console.log("hello")
 	  alert("RSVP form successfully submitted!");
 	  $("#rsvpEmail").val(''); // Clear form 
   }
